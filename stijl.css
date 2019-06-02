@@ -1,0 +1,100 @@
+body {
+  font-family: helvetica;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 7rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  text-align: center;
+  width: 40rem;
+  border: 1px solid black;
+}
+
+.modus {
+  position: fixed;
+  top: 2rem;
+  left: 2rem;
+  font-size: 1.5rem;
+}
+
+.modus a {
+  color: black;
+  text-decoration: none;
+  margin-right: 2rem;
+}
+
+.afbeeldingen {
+  padding: 3rem;
+  column-count: 1;
+}
+
+nav {
+	background-color: #dd2140;
+	width: 30rem;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	right: 0;
+	padding: 5rem;
+}
+
+nav.onzichtbaar {
+  display: none;
+}
+
+.menu {
+  position: fixed;
+	top: 2.5rem;
+	right: 3rem;
+}
+
+nav a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	font-size: 2.25rem;
+	margin-bottom: 5rem;
+  font-weight: 900;
+}
+
+div {
+	margin-bottom: 3rem;
+	break-inside: avoid;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+	margin-bottom: 2rem;
+}
+
+form {
+  font-size: 2rem;
+  font-family: helvetica;
+  margin-left: 2rem;
+  margin-top: 5rem;
+}
+
+p {
+  margin-top: 2rem;
+}
+
+
+
+@media (min-width: 800px) {
+	.afbeeldingen {
+		column-count: 2;
+		column-gap: 5vw;
+	}
+}
+
+@media (min-width: 1100px) {
+	.afbeeldingen {
+		column-count: 3;
+		column-gap: 5vw;
+	}
+}
