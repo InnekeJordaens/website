@@ -1,0 +1,13 @@
+img {
+  border: 3px solid black;
+  display: block;
+  margin-left: 3rem;
+}
+
+p {
+  display: block;
+  font-family: helvetica;
+  font-size: 2rem;
+  margin-left: 3rem;
+  max-width: 100rem;
+}
